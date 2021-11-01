@@ -5,9 +5,9 @@ import Sink from "./Sink";
 export default function Kitchen() {
   return (
     <div className="kitchen-div" id="kitchen">
-      <h4 className="kitchen-text">Kitchen</h4>
       <Oven />
       <Sink />
+      <span className="kitchen-text">Kitchen</span>
     </div>
   );
 }
