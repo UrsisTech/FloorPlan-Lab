@@ -4,7 +4,7 @@ import Sink from "./Sink";
 
 export default function Kitchen() {
   return (
-    <div className="kitchen-div">
+    <div className="kitchen-div" id="kitchen">
       <h4 className="kitchen-text">Kitchen</h4>
       <Oven />
       <Sink />

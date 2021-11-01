@@ -9,7 +9,7 @@ import HalfBath from "./HalfBath";
 
 export default function FloorPlan() {
   return (
-    <div className="floor-plan">
+    <div className="floor-plan" id="floor-plan">
       <Bed1 />
       <Kitchen />
       <FullBath />
